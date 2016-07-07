@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <!--<TextView-->
+         <!--android:layout_marginLeft="15dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:padding="3dp"-->
+        <!--android:text="每月特价"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="25dp" />-->
+    <!--<TextView-->
+        <!--android:background="#22666666"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp" />-->
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent">-->
+            <!-- -->
+            <!--<TextView-->
+                <!--android:text="神鬼与藏獒"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+            <!--<ImageView-->
+                <!--android:src="@drawable/k_"-->
+                <!--android:scaleType="matrix"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+        <!--</LinearLayout>-->
+       <!--<TextView-->
+           <!--android:background="#aaaaaa"-->
+           <!--android:layout_width="1dp"-->
+           <!--android:layout_height="match_parent"/>-->
+        <!-- -->
+        <!-- -->
+
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="260dp">
+
+    <com.atguigu.kieye.view.HorizontalScrollViewPager
+        android:id="@+id/vp_head"
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_below="@+id/vp_head"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <RadioGroup
+
+            android:id="@+id/rg_find"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+
+            <RadioButton
+                android:id="@+id/topic"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:text="话题"
+                android:button="@android:color/transparent"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/v_"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/mess"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:text="资讯"
+                android:button="@android:color/transparent"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/v02_"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/movielib"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:text="预告片"
+                android:button="@android:color/transparent"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/v02_"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/box"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:text="票房"
+                android:button="@android:color/transparent"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/tf"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

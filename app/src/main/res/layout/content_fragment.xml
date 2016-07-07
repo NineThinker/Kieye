@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.atguigu.kieye.view.NoScrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </com.atguigu.kieye.view.NoScrollViewPager>
+
+    <View
+        android:id="@+id/devider_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/rg_main"
+        android:background="#999999" />
+
+    <!---->
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="#f0f0f0">
+        <RadioButton
+            android:id="@+id/rb_movie"
+            style="@style/bottom_button_style"
+            android:checked="true"
+            android:drawableTop="@drawable/movie_icon_selector"
+            android:text="电影"
+            />
+        <RadioButton
+            android:id="@+id/rb_cinema"
+            style="@style/bottom_button_style"
+            android:drawableTop="@drawable/cinema_icon_selector"
+            android:text="影院"
+            />
+        <RadioButton
+            android:id="@+id/rb_find"
+            style="@style/bottom_button_style"
+            android:drawableTop="@drawable/find_icon_selector"
+            android:text="发现"
+            />
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/bottom_button_style"
+            android:drawableTop="@drawable/mine_icon_selector"
+            android:text="我的"
+            />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BeijingNew.iml" filepath="$PROJECT_DIR$/../BeijingNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MaterialRefreshLayout_app/MaterialRefreshLayout_app.iml" filepath="$PROJECT_DIR$/../MaterialRefreshLayout_app/MaterialRefreshLayout_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MaterialRefreshLayout_library/MaterialRefreshLayout_library.iml" filepath="$PROJECT_DIR$/../MaterialRefreshLayout_library/MaterialRefreshLayout_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NumberAddSubView/NumberAddSubView.iml" filepath="$PROJECT_DIR$/../NumberAddSubView/NumberAddSubView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NumberFuckStudio/NumberFuckStudio.iml" filepath="$PROJECT_DIR$/../NumberFuckStudio/NumberFuckStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NumberSubSumView/NumberSubSumView.iml" filepath="$PROJECT_DIR$/../NumberSubSumView/NumberSubSumView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Sliding_library/Sliding_library.iml" filepath="$PROJECT_DIR$/../Sliding_library/Sliding_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestRecycleViewDemo2/TestRecycleViewDemo2.iml" filepath="$PROJECT_DIR$/../TestRecycleViewDemo2/TestRecycleViewDemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestRecyleView/TestRecyleView.iml" filepath="$PROJECT_DIR$/../TestRecyleView/TestRecyleView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestSwipeRefreshLayout&amp;RecycleView/TestSwipeRefreshLayout&amp;RecycleView.iml" filepath="$PROJECT_DIR$/../TestSwipeRefreshLayout&amp;RecycleView/TestSwipeRefreshLayout&amp;RecycleView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator_library.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ViewPagerIndicator_sample/ViewPagerIndicator_sample.iml" filepath="$PROJECT_DIR$/../ViewPagerIndicator_sample/ViewPagerIndicator_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-gif-drawable-library/android-gif-drawable-library.iml" filepath="$PROJECT_DIR$/../android-gif-drawable-library/android-gif-drawable-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android_gif_drawable_demo/android_gif_drawable_demo.iml" filepath="$PROJECT_DIR$/../android_gif_drawable_demo/android_gif_drawable_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xutils_library/xutils_library.iml" filepath="$PROJECT_DIR$/../xutils_library/xutils_library.iml" />
+    </modules>
+  </component>
+</project>

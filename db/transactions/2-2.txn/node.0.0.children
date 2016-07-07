@@ -1,0 +1,49 @@
+K 10
+.gitignore
+V 22
+file ry-2.0.r2/3268732
+K 5
+.idea
+V 20
+dir 0-2.0.r2/3273816
+K 3
+app
+V 20
+dir 5-2.0.r2/3297097
+K 5
+build
+V 21
+dir 1j-2.0.r2/3297952
+K 17
+gradle.properties
+V 22
+file z5-2.0.r2/3298076
+K 7
+gradlew
+V 23
+file 16i-2.0.r2/3298265
+K 11
+gradlew.bat
+V 22
+file vv-2.0.r2/3298448
+K 16
+local.properties
+V 22
+file sr-2.0.r2/3298631
+K 14
+xutils_library
+V 21
+dir 1o-2.0.r2/3525998
+END
+K 10
+README.txt
+V 14
+file _0.0.t2-2
+K 4
+conf
+V 13
+dir _3.0.t2-2
+K 2
+db
+V 13
+dir _h.0.t2-2

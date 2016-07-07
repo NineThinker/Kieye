@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dandy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#ff0000">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:src="@drawable/je" />
+
+
+        <!--<TextView-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:padding="5dp"-->
+        <!--android:background="#000000"-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/textView7"-->
+        <!--android:layout_alignTop="@+id/ib_back" />-->
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/ib_back"
+            android:layout_toEndOf="@+id/ib_back"
+            android:layout_toRightOf="@+id/ib_back"
+
+
+            android:gravity="center"
+            android:text="分类列表"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <com.atguigu.kieye.view.TitleTabBar
+            android:id="@+id/movie_topBar"
+            android:layout_width="@dimen/top_title_bar_sum_width"
+            android:layout_height="@dimen/top_title_bar_height"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="4dp"
+            android:visibility="gone"
+            dandy:titleSourceId="@array/movie_title" />
+
+        <!--ImageButton还要加点击背景的selector-->
+
+
+        <ImageButton
+
+
+            android:id="@+id/ib_title_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ib_title_search"
+            android:layout_toStartOf="@+id/ib_title_search"
+
+            android:background="@android:color/transparent"
+            android:src="@drawable/is_search"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ib_title_search"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/is_search"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+
+    <RadioGroup
+        android:id="@+id/rg_shuma"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:button="@android:color/transparent"
+            android:id="@+id/btn_left"
+            android:background="@android:color/transparent"
+            android:text="系列/主题"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+        <RadioButton
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:button="@android:color/transparent"
+            android:id="@+id/btn_middle"
+            android:background="@android:color/transparent"
+            android:text="超编"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:button="@android:color/transparent"
+            android:id="@+id/btn_right"
+            android:background="@android:color/transparent"
+            android:text="排序"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+    </RadioGroup>
+
+
+
+</LinearLayout>
+<TextView
+    android:background="#aaaaaa"
+    android:layout_width="match_parent"
+    android:layout_height="1dp" />
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/rv_shuma"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dandy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightwhite"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/fragment_mine_user_layout"
+
+            android:id="@+id/login"
+
+
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_60"
+            android:background="@color/textcolor_white_a"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.atguigu.kieye.view.ImageDoubleTextView
+                android:id="@+id/mineTickets"
+                style="@style/ImageDoubleTextViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                dandy:imageSource="@drawable/ic_mine_my_ticket"
+                dandy:top_default_text="@string/mine_tickets" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="40dp"
+                android:background="@color/background_bg2" />
+
+            <com.atguigu.kieye.view.ImageDoubleTextView
+                android:id="@+id/mineCoupon"
+                style="@style/ImageDoubleTextViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                dandy:imageSource="@drawable/ic_mine_my_coupon"
+                dandy:top_default_text="@string/mine_coupon" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_bg2" />
+
+        <com.atguigu.kieye.view.MenuItemView
+            android:id="@+id/messageCenter"
+            style="@style/MineMenuItemStyle"
+            android:layout_marginTop="@dimen/size_20"
+            dandy:leftFlagImg="@drawable/ic_mine_msg_center"
+            dandy:textString="@string/message_center"
+            dandy:topDevider="@color/background_bg2" />
+
+        <com.atguigu.kieye.view.MenuItemView
+            android:id="@+id/mineMovie"
+            style="@style/MineMenuItemStyle"
+            android:layout_marginTop="@dimen/size_20"
+            dandy:isDeviderAlignTextLeft="true"
+            dandy:leftFlagImg="@drawable/ic_mine_my_movie"
+            dandy:textString="@string/mine_movie"
+            dandy:topDevider="@color/background_bg2" />
+
+        <com.atguigu.kieye.view.MenuItemView
+            android:id="@+id/mineCommunity"
+            style="@style/MineMenuItemStyle"
+            dandy:isDeviderAlignTextLeft="true"
+            dandy:leftFlagImg="@drawable/ic_mine_my_community"
+            dandy:textString="@string/mine_community" />
+
+        <com.atguigu.kieye.view.MenuItemView
+            android:id="@+id/minePost"
+            style="@style/MineMenuItemStyle"
+            dandy:isDeviderAlignTextLeft="true"
+            dandy:leftFlagImg="@drawable/ic_mine_my_post"
+            dandy:textString="@string/mine_post" />
+
+        <com.atguigu.kieye.view.MenuItemView
+            android:id="@+id/mineCollection"
+            style="@style/MineMenuItemStyle"
+            dandy:leftFlagImg="@drawable/ic_mine_my_collection"
+            dandy:textString="@string/mine_collection" />
+
+        <com.atguigu.kieye.view.MenuItemView
+            android:id="@+id/mineGoods"
+            style="@style/MineMenuItemStyle"
+            android:layout_marginTop="@dimen/size_20"
+            dandy:leftFlagImg="@drawable/ic_mine_my_goods"
+            dandy:textString="@string/mine_goods"
+            dandy:topDevider="@color/background_bg2" />
+
+        <com.atguigu.kieye.view.MenuItemView
+            android:id="@+id/appSet"
+            style="@style/MineMenuItemStyle"
+            android:layout_marginTop="@dimen/size_20"
+            android:layout_marginBottom="@dimen/size_20"
+            dandy:leftFlagImg="@drawable/ic_mine_setting"
+            dandy:textString="@string/app_set"
+            dandy:topDevider="@color/background_bg2" />
+
+
+        <com.atguigu.kieye.view.MenuItemView
+            android:id="@+id/appSet1"
+            style="@style/MineMenuItemStyle"
+            android:layout_marginTop="@dimen/size_20"
+            android:layout_marginBottom="@dimen/size_20"
+            dandy:leftFlagImg="@drawable/ic_mine_setting"
+            dandy:textString="@string/app_set"
+            dandy:topDevider="@color/background_bg2" />
+
+        <com.atguigu.kieye.view.MenuItemView
+            android:id="@+id/appSet2"
+            style="@style/MineMenuItemStyle"
+            android:layout_marginTop="@dimen/size_20"
+            android:layout_marginBottom="@dimen/size_20"
+            dandy:leftFlagImg="@drawable/ic_mine_setting"
+            dandy:textString="@string/app_set"
+            dandy:topDevider="@color/background_bg2" />
+    </LinearLayout>
+
+</ScrollView>

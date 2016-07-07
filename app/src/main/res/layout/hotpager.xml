@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/pb_hot"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:indeterminateDuration="900"
+
+        android:background="@drawable/backgroud_logo02"
+        style="@style/myProgressBarStyleLarge"/>
+
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleView_hot"
+        android:layout_gravity="center_horizontal|top">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:clickable="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/rl_locationInfo"
+        android:background="@drawable/location_selctor"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_locationInfor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#000000"
+            android:text="北京昌平区100把大马勺百姓生活菜馆"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+
+
+</FrameLayout>

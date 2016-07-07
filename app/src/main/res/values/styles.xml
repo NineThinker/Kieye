@@ -1,0 +1,102 @@
+<resources>
+
+    <!-- 定义一个样式，继承android系统的对话框样式 android:style/Theme.Dialog-->
+    <style name="Theme.FloatActivity" parent="android:style/Theme.Dialog">
+        <!-- float_box为我们定义的窗口背景-->
+        <item name="android:windowBackground">@drawable/float_box</item>
+    </style>
+
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="bottom_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/bottom_button_textcolor_selector</item>
+    </style>
+
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+    <style name="MyTabLayoutTextAppearanceInverse" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+
+    <!-- 使用自定义属性时，只需要把MainActivity 所在的包名写上即可，如下方式: -->
+    <style name="CustomTabItemStyle">
+        <item name="com.atguigu.kieye:contentTextSize">@dimen/tab_text_size</item>
+        <item name="com.atguigu.kieye:contentLogoSize">@dimen/tab_logo_size</item>
+        <item name="com.atguigu.kieye:contentTextColor">@color/textcolor_black_b3</item>
+    </style>
+
+
+    <style name="ImageDoubleTextViewStyle">
+        <item name="com.atguigu.kieye:imageSize">@dimen/size_30</item>
+        <item name="com.atguigu.kieye:bottom_default_text">@string/mine_default</item>
+        <item name="com.atguigu.kieye:top_text_color">@color/textcolor_black_b3</item>
+        <item name="com.atguigu.kieye:top_text_size">@dimen/title_text_size_02</item>
+        <item name="com.atguigu.kieye:bottom_text_color">@color/textcolor_black_b1</item>
+        <item name="com.atguigu.kieye:bottom_text_size">@dimen/title_text_size</item>
+        <item name="com.atguigu.kieye:text_margin_left">@dimen/mine_margin2</item>
+        <item name="android:paddingRight">@dimen/size_40</item>
+    </style>
+
+    <style name="MineMenuItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size_50</item>
+        <item name="com.atguigu.kieye:leftPadding">@dimen/mine_margin2</item>
+        <item name="com.atguigu.kieye:rightPadding">@dimen/mine_margin2</item>
+        <item name="com.atguigu.kieye:textSize">@dimen/title_text_size</item>
+        <item name="com.atguigu.kieye:textColor">@color/textcolor_black_b2</item>
+        <item name="com.atguigu.kieye:rightFlagImg">@drawable/arrow_right_gray</item>
+        <item name="com.atguigu.kieye:mbackground">@color/textcolor_white_a</item>
+        <item name="com.atguigu.kieye:leftImageSize">@dimen/size_20</item>
+        <item name="com.atguigu.kieye:rightImageSize">@dimen/size_15</item>
+        <item name="com.atguigu.kieye:bottomDevider">@color/background_bg2</item>
+        <item name="com.atguigu.kieye:alphaFactor">0.7</item>
+        <item name="com.atguigu.kieye:mrippleColor">@color/mrippleColor</item>
+        <item name="com.atguigu.kieye:hover">true</item>
+    </style>
+
+
+
+    <!--<style name="Widget.ProgressBar.Large">-->
+        <!--　　<item name="android:indeterminateDrawable">@android:drawable/progress_large_white</item>-->
+        <!--　　<item name="android:minWidth">76dip</item>-->
+        <!--　　<item name="android:maxWidth">76dip</item>-->
+        <!--　　<item name="android:minHeight">76dip</item>-->
+        <!--　　<item name="android:maxHeight">76dip</item>-->
+    <!--</style>-->
+
+    <style name="myProgressBarStyleLarge" >
+        　　<item name="android:indeterminateDrawable">@drawable/progress_large</item>
+        　　<item name="android:minWidth">76dip</item>
+        　　<item name="android:maxWidth">76dip</item>
+        　　<item name="android:minHeight">76dip</item>
+        　　<item name="android:maxHeight">76dip</item>
+            <!--<item name="android:indeterminateDrawable">@drawable/progress_large_shape</item>-->
+
+        <!--<item name="android:indeterminateDrawable">@anim/progress_large_loading</item>-->
+    </style>
+
+
+</resources>
